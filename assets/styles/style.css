@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  height: 100%;
+  font-family: "Figtree", sans-serif;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100%;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card {
+  font-weight: 600;
+  font-size: smaller;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: min-content;
+  border: 1px solid black;
+  box-shadow: 5px 7px 0px 1px #000000;
+}
+
+.card span {
+  background-color: hsl(47, 88%, 63%);
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.3rem;
+  font-weight: 800;
+}
+
+.card p {
+  margin: 0;
+  color: hsl(0, 0%, 40%);
+  font-size: 0.9rem;
+  font-weight: lighter;
+  line-height: 1.3rem;
+}
+
+.card h1 {
+  cursor: pointer;
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 800;
+  transition: all ease-in-out 0.3s;
+}
+
+.card h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+.card-img {
+  border-radius: 1rem;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 800;
+  font-size: smaller;
+}
+.author img {
+  width: 25%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 400px) {
+  .card {
+    width: 85%;
+  }
+  .card-img {
+    width: 100%;
+  }
+}
