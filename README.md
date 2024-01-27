@@ -24,6 +24,8 @@ Users should be able to:
 
 ### Screenshots
 ![Screenshot](screenshot-active.png)
+![Screenshot](screenshot-desktop.png)
+![Screenshot](screenshot-mobile.png)
 
 ```sh
 (./screenshot-active.png)
