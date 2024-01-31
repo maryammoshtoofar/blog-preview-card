@@ -59,3 +59,5 @@ html { height: 100%; } body { min-height: 100%; margin: 0; }
 ## Author
 
 - Website - [Maryam Moshtoofar](https://maryammoshtoofar.github.io/)
+- Frontend Mentor - [@maryammoshtoofar](https://www.frontendmentor.io/profile/maryammoshtoofar)
+- CodePen - [@maryammoshtoofar](https://codepen.io/maryammoshtoofar)
