@@ -85,13 +85,12 @@ body {
   }
 }
 
-
 @media only screen and (max-width: 365px) {
-.card h1 {
-  font-size: 1rem;
-}
-.card {
-   padding: .8rem;
+  .card h1 {
+    font-size: 1rem;
+  }
+  .card {
+    padding: 0.8rem;
     gap: 1rem;
-}
+  }
 }
