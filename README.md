@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
+- [Github Pages](https://maryammoshtoofar.github.io/blog-preview-card/)
 - [CodePen](https://codepen.io/maryammoshtoofar/pen/WNmObXY)
-- [Github Pages](https://your-live-site-url.com)
 
 ## My process
 
